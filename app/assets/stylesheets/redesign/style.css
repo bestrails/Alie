@@ -1,0 +1,543 @@
+/*======= Reset ======== */
+#home{ padding: 0 !important}
+#btnSubmit{font-family: "Raleway", sans-serif !important;}
+body {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  color: #333;
+  background: #fff;
+  font-size: 14px;
+  line-height: 22px;
+  overflow-x:hidden;
+  -webkit-font-smoothing:antialiased;
+}
+::selection{
+  background: rgba(151, 160, 175, 0.5);
+  color: #ffffff;
+}
+::-moz-selection {
+  background: rgba(151, 160, 175, 0.5);
+  color: #ffffff;
+}
+
+a:hover,a:focus,.a:active {
+  text-decoration: none;
+  outline: none !important;
+}
+
+.show-mobile{display: none;}
+
+
+/*======= GENERAL ETOBEE ======= */
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 15px 0;
+  font-family: "Raleway", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  color: #333;
+  text-transform: none;
+}
+
+h1{
+  font-size: 36px;
+  line-height: 44px;
+}
+h2{
+  font-size: 24px;
+  line-height: 32px;
+}
+h3{
+  font-size: 18px;
+  line-height: 26px;
+}
+h4{
+  font-size: 16px;
+  line-height: 24px;
+}
+h5{
+  font-size: 14px;
+  line-height: 22px;
+}
+h6{
+  font-size: 12px;
+  line-height: 20px;
+}
+
+p{font-size: 18px;}
+
+
+/*======= etobee Buttons ======= */
+
+
+.btn{
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.btn-etobee{
+  font-size: 12px;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+.btn-red, a.btn-red {
+  background: #ff5a60 !important;
+  color: #fff !important;
+}
+
+.btn-red:focus, a.btn-red:focus {
+  background: #f0555a;
+  border: 1px solid #f0555a;
+  outline: none;
+}
+.btn-red:hover, a.btn-red:hover {
+  background: #f0555a !important;
+  border: 1px solid #f0555a;
+}
+
+
+/*======= Download wrapper ======= */
+
+.download-section { 
+  height: 100vh; 
+  background-image: url('/assets/redesign/bg-top.jpg');
+  background-position: bottom;
+  background-size: cover;
+  background-color: #462445;
+}
+
+
+.downloadapp-wrapper {
+  color: #ffffff;
+  padding: 30px 0px 0px 0px;
+  text-align: left;
+  margin-top: 120px;
+}
+
+.screenshot-wrapper{margin-top: 30px;}
+
+
+.downloadapp-wrapper img{max-width:100%; margin-bottom: 60px;}
+
+
+.downloadapp-wrapper h1
+{
+
+  color: #FFF;
+}
+
+.downloadapp-wrapper p
+{ 
+
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.downloadapp-wrapper p.copyright{font-size: 12px;}
+
+
+
+/* DOWNLOAD BUTTON */
+
+
+.download-buttons {
+    flex-grow: 1;
+    -webkit-flex-grow: 1;
+    z-index: 3;
+    position: relative;
+    margin-top: 40px;
+}
+
+.download-button,.download-button:visited {
+    border-radius: 10px;
+    padding: 15px 25px;
+    font-size: 18px;
+    color: #fff;
+    line-height: normal;
+    font-weight: 600;
+    transition: 0.2s all;
+    -webkit-transition: 0.2s all;
+    font-family: "Raleway", sans-serif;
+    text-align: left;
+    border: 1px solid #fff;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    display: none;
+}
+
+.download-button:hover {
+    background: #fff;
+    color: #ff5a60;
+    text-decoration: none;
+}
+
+.download-button:active  {
+    color: #fff;
+    text-decoration: none;
+}
+
+.download-button i {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 42px;
+}
+
+.download-button .text {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.download-button .text span {
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.screenshot-wrapper img{width:380px; height:651px; float:right; margin-top:50px;}
+
+
+
+/* Referral */
+
+.referral-wrapper {
+  color: #111;
+  padding: 30px 0px 0px 0px;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.referral-wrapper h2{font-weight: 600;}
+
+
+/*======= Footer CTA =======*/
+.footer-cta {
+  color: #ffffff;
+  padding-bottom: 90px;
+  padding-top: 90px;
+}
+.footer-cta .btn {
+  margin-top: 30px;
+}
+
+
+/*======= Footer =======*/
+.footer h5{
+  color: #333;
+  font-size: 15px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.footer ul li {
+  margin: 5px 0px;
+}
+.footer-alt {
+  padding-top:0px;
+  text-align: center;
+}
+.footer-alt .logo {
+  color: #97a0af !important;
+  margin-bottom: 0px;
+}
+.footer-alt .logo i {
+  margin-right: 5px;
+}
+
+.copyright a:link, .copyright a:visited{color: #f0555a;}
+.copyright a:hover{text-decoration: underline;}
+
+a.btn-social-icon {
+
+  padding-left: 52px;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 38px;
+  width: 38px;
+  padding: 0;
+  color:#fff;
+  left: 1px;
+  margin: 4px;
+  font-size: 16px;
+  padding-top: 8px;
+}
+
+
+.btn-rounded {
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  border-radius: 40px;
+}
+
+.btn-instagram {
+  color: #ffffff;
+  background-color: #3f729b;
+  border-color: #3f729b;
+}
+a.btn-instagram:hover,
+a.btn-instagram:focus,
+a.btn-instagram:active,
+a.btn-instagram.active,
+.open .dropdown-toggle a.btn-instagram {
+  color: #ffffff;
+  background-color: #386589;
+  border-color: #386589;
+}
+.btn-instagram.btn-outline {
+  background-color: transparent;
+  color: #3f729b;
+}
+.btn-instagram.btn-outline:hover,
+.btn-instagram.btn-outline:focus,
+.btn-instagram.btn-outline:active,
+.btn-instagram.btn-outline.active {
+  background-color: #3f729b;
+  color: #ffffff;
+}
+a.btn-instagram {
+  color: #ffffff;
+}
+.btn-instagram:active,
+.btn-instagram.active,
+.open .dropdown-toggle.btn-instagram {
+  background-image: none;
+}
+
+
+.btn-facebook {
+  color: #ffffff;
+  background-color: #3b5998;
+  border-color: #3b5998;
+}
+.btn-facebook:hover,
+.btn-facebook:focus,
+.btn-facebook:active,
+.btn-facebook.active,
+.open .dropdown-toggle.btn-facebook {
+  color: #ffffff;
+  background-color: #344e86;
+  border-color: #344e86;
+}
+.btn-facebook.btn-outline {
+  background-color: transparent;
+  color: #3b5998;
+}
+.btn-facebook.btn-outline:hover,
+.btn-facebook.btn-outline:focus,
+.btn-facebook.btn-outline:active,
+.btn-facebook.btn-outline.active {
+  background-color: #3b5998;
+  color: #ffffff;
+}
+a.btn-facebook {
+  color: #ffffff;
+}
+
+
+.btn-twitter {
+  color: #ffffff;
+  background-color: #55acee;
+  border-color: #55acee;
+}
+.btn-twitter:hover,
+.btn-twitter:focus,
+.btn-twitter:active,
+.btn-twitter.active,
+.open .dropdown-toggle.btn-twitter {
+  color: #ffffff;
+  background-color: #3ea1ec;
+  border-color: #3ea1ec;
+}
+.btn-twitter.btn-outline {
+  background-color: transparent;
+  color: #55acee;
+}
+.btn-twitter.btn-outline:hover,
+.btn-twitter.btn-outline:focus,
+.btn-twitter.btn-outline:active,
+.btn-twitter.btn-outline.active {
+  background-color: #55acee;
+  color: #ffffff;
+}
+a.btn-twitter {
+  color: #ffffff;
+}
+.btn-twitter:active,
+.btn-twitter.active,
+.open .dropdown-toggle.btn-twitter {
+  background-image: none;
+}
+
+
+/* Intro Form */
+.intro-form, .new_user {
+  background-color: #FFFFFF;
+  padding: 30px;
+  border-radius: 5px;
+}
+.intro-form h3,  .new_user h3{
+  color: #949799;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  margin-top: 0px;
+}
+.intro-form input, .new_user input {
+  border: 1px solid #eee;
+  font-size: 13px;
+}
+.intro-form input.form-control:hover, .new_user input.form-control:hover {
+  border-color: #eee;
+}
+
+.form-control {
+  box-shadow: none !important;
+  outline: none !important;
+  border: 1px solid #97a0af;
+  height: 38px;
+
+}
+.form-control:focus,.form-control:hover {
+  border-color: #fa4a86;
+}
+
+
+.thankyou-section { 
+  height: 600px; 
+  background-position: bottom;
+  background-size: cover;
+  background-color: #462445;
+}
+
+.btn-etobee i{margin-right: 5px;}
+
+
+
+/* MOBILE VIEW LANDSCAPE AND POTRAIT */
+@media (max-width: 768px) {
+  .show-mobile{display: block;}
+  .downloadapp-wrapper {
+    color: #ffffff;
+    padding: 0px 20px 0px 20px;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .downloadapp-wrapper img{margin-bottom: 40px;}
+
+
+    .download-section { 
+    height: 100vh; 
+  background-image: url('../images/bg-top.jpg');
+  background-position: bottom;
+  background-size: cover;
+  background-color: #462445
+    }
+
+  .download-buttons{ margin:5px; margin-top: 40px;}
+  .download-button,.download-button:visited {
+    border-radius: 10px;
+    padding: 10px 18px;
+    font-size: 12px;
+    color: #fff;
+    line-height: normal;
+    font-weight: 600;
+    transition: 0.2s all;
+    -webkit-transition: 0.2s all;
+    font-family: "Raleway", sans-serif;
+    text-align: left;
+    border: 1px solid #fff;
+    display: none;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+
+  .download-button i {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 26px;
+  }
+
+  h1{font-size:24px;line-height: 32px;}
+  h2{font-size:20px;}
+  h3{font-size:19px;}
+  h4{font-size:18px;}
+  h5{font-size:17px;}
+  h6{font-size:16px;}
+  p{font-size: 16px;}
+  .screenshot-wrapper {text-align: center;}
+  .screenshot-wrapper img{width:300px; height:486px; float: none; margin-bottom: 30px; margin-top: 0px;}
+  p.copyright{display: none;}
+  p.copyright-mobile{text-align:center; color:rgba(151, 160, 175, 0.5);; font-size:12px; margin-bottom:30px;}
+
+
+    .thankyou-section { 
+    height: 400px; 
+    background-position: bottom;
+    background-size: cover;
+    background-color: #462445;
+    }
+
+
+}
+
+
+/* TABLET VIEW */
+@media (min-width: 768px) and (max-width: 991px){
+  .downloadapp-wrapper {
+  color: #ffffff;
+  padding: 80px 0px 0px 0px;
+  text-align: left;
+  margin-top: 100px;
+  }
+
+  .thankyou-section { 
+    height: 800px; 
+    background-position: bottom;
+    background-size: cover;
+    background-color: #462445;
+  }
+
+  .download-buttons{ margin:5px; margin-top: 40px;}
+  .download-button,.download-button:visited {
+    border-radius: 10px;
+    padding: 10px 18px;
+    font-size: 12px;
+    color: #fff;
+    line-height: normal;
+    font-weight: 600;
+    transition: 0.2s all;
+    -webkit-transition: 0.2s all;
+    font-family: "Raleway", sans-serif;
+    text-align: left;
+    border: 1px solid #fff;
+    display: none;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  .download-button i {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 26px;
+  }
+  .screenshot-wrapper img{width:300px; height:514px; float:right; margin-top:110px;}
+
+}
+
+
+/* TABLET VIEW LANDSCAPE / DESKTOP */
+@media (min-width: 992px) and (max-width: 1200px){
+
+}
+
+
+

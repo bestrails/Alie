@@ -1,0 +1,245 @@
+@charset "utf-8";
+
+*{outline:none !important;}
+.clear{clear:both;}
+body{ margin:0;padding:0;font-family: "Raleway";font-size: 24px;color: rgb( 235, 244, 241 );line-height: 28px;}
+a{text-decoration:none}
+#ty {
+	color: #101010 !important;
+	font-weight: normal !important;
+	font-family: inherit !important;
+	line-height: inherit !important;
+	font-size: 30px !important;
+	margin: 22px !important;
+}
+.btn{
+  text-transform: uppercase;
+  font-weight: 700;
+
+}
+
+.btn-etobee{
+  font-size: 12px;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-family: "Raleway";
+}
+
+.btn-red, a.btn-red {
+  background: #ff5a60 !important;
+  color: #fff !important;
+}
+
+.btn-red:focus, a.btn-red:focus {
+  background: #f0555a;
+  border: 1px solid #f0555a;
+  outline: none;
+}
+.btn-red:hover, a.btn-red:hover {
+  background: #f0555a !important;
+  border: 1px solid #f0555a;
+}
+
+.btn-etobee i{margin-right: 5px;}
+
+.btn-facebook {
+  color: #ffffff;
+  background-color: #3b5998;
+  border-color: #3b5998;
+}
+.btn-facebook:hover,
+.btn-facebook:focus,
+.btn-facebook:active,
+.btn-facebook.active,
+.open .dropdown-toggle.btn-facebook {
+  color: #ffffff;
+  background-color: #344e86;
+  border-color: #344e86;
+  text-decoration: none;
+}
+.btn-facebook.btn-outline {
+  background-color: transparent;
+  color: #3b5998;
+}
+.btn-facebook.btn-outline:hover,
+.btn-facebook.btn-outline:focus,
+.btn-facebook.btn-outline:active,
+.btn-facebook.btn-outline.active {
+  background-color: #3b5998;
+  color: #ffffff;
+}
+a.btn-facebook {
+  color: #ffffff;
+}
+
+
+.btn-twitter {
+  color: #ffffff;
+  background-color: #55acee;
+  border-color: #55acee;
+}
+.btn-twitter:hover,
+.btn-twitter:focus,
+.btn-twitter:active,
+.btn-twitter.active,
+.open .dropdown-toggle.btn-twitter {
+  color: #ffffff;
+  background-color: #3ea1ec;
+  border-color: #3ea1ec;
+  text-decoration: none;
+}
+.btn-twitter.btn-outline {
+  background-color: transparent;
+  color: #55acee;
+}
+.btn-twitter.btn-outline:hover,
+.btn-twitter.btn-outline:focus,
+.btn-twitter.btn-outline:active,
+.btn-twitter.btn-outline.active {
+  background-color: #55acee;
+  color: #ffffff;
+}
+a.btn-twitter {
+  color: #ffffff;
+}
+.btn-twitter:active,
+.btn-twitter.active,
+.open .dropdown-toggle.btn-twitter {
+  background-image: none;
+}
+
+
+
+
+
+.col-md-12,.col-md-11,.col-md-10{ float:none;margin:0 auto;}
+
+#logo{margin-bottom:60px;}
+.banner{ background:url("../images/landingBG.jpg") top center no-repeat;height:570px;background-size:auto 100%;}
+.banner .text{ text-align: right;}
+.banner .text p{ color: rgb( 235, 244, 241 ); }
+h1{ font-size: 48px; font-family: "Raleway"; color: rgb( 255, 90, 95 ); font-weight: bold;  }
+
+.getinside{ padding-top:20px; padding-bottom:80px;}
+.getinside .key{ background:url("../images/key.png") top center no-repeat;padding-top:40px; font-size: 18px; line-height: 24px; color: rgb( 63, 64, 64 ); text-align: center; margin-bottom:20px; }
+.getinside .form{ text-align:center }
+.getinside input{ border:none; border-radius: 3px; background-color: rgb( 207, 207, 207 ); width: 325px; height: 45px; font-size: 19px; color: rgb( 123, 123, 123 ); padding:10px 20px; display:inline-block; }
+.getinside button{ border-radius: 3px; background-color: rgb( 255, 73, 79 ); border:none; width: 175px; height: 45px; font-size: 20px; color: rgb( 255, 255, 255 ); text-align:center; display:inline-block;}
+
+/*thankyou*/
+.thanksPage .col-md-12{padding:0;}
+.thanksLine{background:#ff5a5f;}
+.thanksLine h1{font-size: 20px;line-height: 75px;color:#fffefe;margin:0px;text-align:center;font-family: "Raleway"; font-weight: 400;}
+.thanksBanner{position:relative;}
+.thanksBanner .image, .thanksBanner .image-small{position:relative;top:0px;}
+.thanksBanner .image img, .thanksBanner .image-small img{width:100%;}
+
+.thanksBanner .image-small{display: none;}
+.thanksBanner .image{display:block;}
+
+
+.thanksBanner .bannerContent{position:absolute;top:0px;right:0px;left:0px;margin:0 auto;margin-top: 50px;}
+
+.thanksBanner .title{font-size: 27px;color:#fff;font-family: "Raleway";padding-top:90px;margin-bottom:20px;font-weight: 300;}
+.thanksBanner .title span{  font-size: 36px;font-family: "Raleway";font-weight: 300; line-height: 44px;}
+.thanksBanner p{font-family: "Raleway";font-weight: 300; font-size: 16px;color: rgba(255, 255, 255, 0.5); line-height: 24px; }
+.shareBlock{text-align:left;}
+.inputBlock{ margin:25px auto;  }
+.inputBlock input{ font-size: 16px;font-family: "Raleway"; color: rgb( 255, 90, 95 );text-align: left;line-height: 45px;border:none;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;padding:0 20px;width:400px;margin:0 auto; }
+
+.stepLine{font-size: 28px;color: #101010;text-align: center;padding:40px 0 !important;}
+.stepLine .friendsJoined{font-size: 18px;color: rgb( 0, 0, 0 );text-align: center;margin:20px auto;}
+.stepWrapper{position:relative;}
+.stepWrapper .stroke{position:absolute;height:2px;background:#ff5a5f; display:block;width:100%;z-index:1;top:41px;}
+.stepItem{text-align:center;position:relative;z-index:10;}
+.stepItem .col-md-6{ float:none;margin:0 auto;width:100%;}
+.stepItem .number{margin-bottom:30px;width:83px;height:83px;padding:7px;border:transparent 2px solid #fff;border-radius:41px;-moz-border-radius:41px;-webkit-border-radius:41px;}
+.stepItem .number .backgrounded{font-family: "Raleway";font-weight: 600; font-size: 22px; width:65px;height:65px;color:#ff5a5f;background:#fff;border:2px solid #ff5a5f;border-radius:32px;-moz-border-radius:32px;-webkit-border-radius:32px;margin:0px !important;line-height: 56px;}
+.stepItem.achieved .number{border:2px solid #ff5a5f;}
+.stepItem.achieved .number .backgrounded{color:#fff;background:#ff5a5f;}
+.stepContent{font-size: 16px;color:#333;text-align: center;}
+.stepContent .image{width:154px;height:154px;border-radius:75px;-moz-border-radius:77px;-webkit-border-radius:77px;overflow:hidden;margin:0 auto;margin-bottom:10px;}
+.stepContent .image img{width:150px;height:150px;}
+
+.friendsNotif{text-align:center;padding:20px 0 30px 0;}
+.friendsNotif div {font-size: 30px;font-family: "Raleway";color:#333;margin:10px auto; font-weight: 600}
+.friendsNotif div span{color: rgb( 255, 90, 95 );}
+.friendsNotif p {color: #bbb; font-size: 18px; padding-bottom: 80px;}
+
+
+
+
+
+@media (max-width: 1300px) {
+	.thanksBanner .title{padding-top:40px;}
+	.thanksBanner .bannerContent{margin-top:50px;}
+	.thanksBanner .image-small{display: none;}
+}
+@media (max-width: 1150px) {
+	.thanksBanner .title{padding-top:15px;}
+	.thanksBanner .bannerContent{margin-top:30px;}
+	.thanksBanner .image-small{display: none;}
+
+}
+@media (max-width: 992px) {
+	.thanksBanner .bannerContent{position:relative;padding-bottom:50px; margin-top: 0px; background-color: #f0f0f0;}
+	.inputBlock input{ border:2px solid rgb( 255, 90, 95 );width:90%;}
+	.stepLine,.friendsNotif{width:90%;}
+	.stepItem{margin-bottom:20px;}
+	.stepItem .col-md-6{float:left;}
+	.stepItem .number{margin-right:30%;margin-left:30px;margin-top:30px;}
+	.stepItem .stepContent{width:50%;float:left;}
+	.stepWrapper .stroke{position:absolute;height:100%;background:#ff5a5f; display:block;width:2px;z-index:1;left:100px;top:0;}
+	.thanksBanner .image{display: none;}
+	.thanksBanner .image-small{display: block;}
+	.thanksBanner .title{color:#333; margin-top: 20px;font-size: 24px;}
+	.thanksBanner .title span{font-size: 26px;}
+	.thanksBanner p{font-family: "Raleway";font-weight: 300; font-size: 16px;color: #333; line-height: 24px; }
+	.stepLine .friendsJoined{padding-left:30px; margin-bottom: 60px;}
+
+}
+@media (max-width: 720px) {
+	#logo{text-align:center; margin-bottom:240px;}
+	.banner .text{ text-align:center;}
+	.getinside{ padding-top:80px; padding-bottom:30px;background:#462345;}
+	.getinside input,.getinside button{ width:80%;display:block;margin:0 auto 20px auto; }
+	.getinside .key{color:#fff;margin-bottom:30px;}
+	.stepItem .number{margin-right:20%;}
+	.thanksBanner .title{margin-bottom:20px;}
+	.thanksBanner .image{display: none;}
+	.thanksBanner .image-small{display: block;}
+	.stepLine .friendsJoined{padding-left:30px; margin-bottom: 60px;}
+}
+@media (max-width: 555px) {
+	.banner{ height:500px;}
+	#logo{text-align:center; margin-bottom:170px;}
+	.banner .text h1{ font-size:40px}
+	.banner .text p{ font-size:22px}
+	.stepLine, .friendsNotif{width:100%;}
+	.thanksLine h1{font-size: 18px;line-height: 60px;}
+	.thanksBanner .title{color:#333; margin-top: 20px;font-size: 24px;}
+	.thanksBanner .title span{font-size: 26px;}
+	.stepItem .number{margin-right:10%;}
+	.stepContent{font-size:16px;}
+	.stepLine .friendsJoined{padding-left:30px; margin-bottom: 60px;}
+}
+@media (max-width: 480px) {
+	.banner{ height:450px;}
+	#logo{text-align:center; margin-bottom:150px;}
+	.banner .text h1{ font-size:30px}
+	.banner .text p{ font-size:16px}
+}
+@media (max-width: 400px) {
+	.thanksBanner .title{color:#333; margin-top: 20px;font-size: 24px;}
+	.thanksBanner .title span{font-size: 26px;}
+	.stepItem .number{margin-left:0px;margin-top:30px;margin-right:0;}
+	.stepWrapper .stroke{left:70px;}
+	.stepItem .stepContent{width:65%;}
+}
+@media (max-width: 390px) {
+	.banner{ height:400px;}
+	#logo{text-align:center; margin-bottom:120px;}
+	.banner .text h1{ font-size:24px}
+	.banner .text p{ font-size:14px}
+}
+

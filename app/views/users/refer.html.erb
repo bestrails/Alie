@@ -1,4 +1,102 @@
-<div class="header">
+<%= stylesheet_link_tag "https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css", :media => "all" %>
+<body>
+  <div class="thanksPage">
+    <div class="col-md-12 thanksLine">
+      <div class="col-md-11">
+        <h1 class="">Thank you for signing up</h1>
+      </div>
+    </div>
+    <div class="col-md-12 thanksBanner">
+      <div class="image">
+        <img src="/assets/redesign/thanksBanner.jpg" align="etobee" >
+      </div>
+
+      <div class="image-small">
+        <img src="/assets/redesign/thanksBanner2.jpg" align="etobee" >
+      </div>
+
+      <div class="col-md-11 bannerContent">
+        <div class="col-md-6"></div>
+        <div class="col-md-6">
+          <div class="title">
+            <span><strong>Invite Your Friends!</strong></span><br />
+            and they will get Rp60.000 for their sign up
+          </div>
+          <p>Share your unique link via email, Facebook, or Twitter and earn etobee credits and products for each friend who signs up.</p>
+          <div class="inputBlock">
+            <input type="text" value="http://campaign.etobee.com/?ref=d3c94e2791" readonly />
+          </div>
+          <div class="shareBlock">
+            <% twitter_message = "#Shaving is evolving. Excited for @harrys to launch." %>
+            <a class="btn-etobee btn-facebook" href="http://www.facebook.com/sharer/sharer.php?u=<%= CGI::escape(root_url) %>?ref=<%= CGI::escape(@user.referral_code) %>&title=Harrys" target="_blank" style="margin-right:10px;">
+                  <i class="fa fa-facebook"></i> Share
+                    </a> 
+
+                    <a class="btn-etobee btn-twitter" href="http://twitter.com/share?url=<%= CGI::escape(root_url) %>?ref=<%= CGI::escape(@user.referral_code) %>&text=<%= CGI::escape(twitter_message) %>" target="_blank">
+                  <i class="fa fa-twitter"></i> Tweet
+                    </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-12 stepLine">
+      <div class="col-md-11"><h2 id="ty">Here's how it works</h2></div>
+      <div class="col-md-10 friendsJoined">friends joined</div>
+      <div class="col-md-10 stepWrapper">
+        <div class="stroke"></div>
+        <div class="col-md-4 stepItem">
+          <div class="col-md-6 number">
+            <div class="backgrounded">0</div>
+          </div>
+          <div class="col-md-6 stepContent">
+            <div class="image"><img src="/assets/redesign/step1.png" alt="step-2"></div>
+            <div class="text">Enough for 2/3 Deliveries</div>
+          </div>
+          <div class="clear"></div>
+        </div>
+        <div class="col-md-4 stepItem">
+          <div class="col-md-6 number">
+            <div class="backgrounded">5</div>
+          </div>
+          <div class="col-md-6 stepContent">
+            <div class="image"><img src="/assets/redesign/step2.png" alt="step-3"></div>
+            <div class="text">Notebook</div>
+          </div>
+          <div class="clear"></div>
+        </div>
+        <div class="col-md-4 stepItem">
+          <div class="col-md-6 number">
+            <div class="backgrounded">15</div>
+          </div>
+          <div class="col-md-6 stepContent">
+            <div class="image"><img src="/assets/redesign/step3.png" alt="step-4"></div>
+            <div class="text">Delivery King</div>
+          </div>
+          <div class="clear"></div>
+        </div>
+        <div class="clear"></div>
+      </div>
+      <div class="clear"></div>
+    </div>
+    <div class="col-md-12 friendsNotif">
+      <% if @user.referrals.count == 0 %>  
+        <div><span>0</span> friends have joined!</div>
+      <% end %>
+      <% if @user.referrals.count == 1 %>
+        <div><span>1</span> friend have joined!</div>
+      <% end %>
+      <% if @user.referrals.count > 1 %>
+        <div><span><%= @user.referrals.count %></span> friends have joined!</div>
+      <% end %>
+      <p>Keep checking</p>
+    </div>
+    
+  </div>
+  
+</body>
+
+
+<!-- <div class="header">
     <div class="content">
         <p class="logo brandon">Harry&#8217;s</p>
         <p class="byline brandon">THANK YOU FOR SIGNING UP</p>
@@ -85,4 +183,4 @@
         <p class="ship brandon">We ship to the U.S. (& Canada Soon)</p>        
         <a class="policy brandon" href="/privacy-policy" target="_blank">Privacy Policy</a>
     </div>
-</div>
+</div> -->
